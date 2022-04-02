@@ -7,4 +7,4 @@
 > URL : https://humormint.github.io/FrontEndSchool_2/practice-todo-list/index.html <br>
 
 🧷 기능 
-<img src="images/todo-list2.gif" width="450px" height="300px"></img>
+<img src="./practice-todo-list/images/todo-list2.gif" width="450px" height="300px"></img>

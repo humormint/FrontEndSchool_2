@@ -3,5 +3,5 @@
 <br>
 
 ## 📌 To-Do List
-> To-Do List 페이지 입니다.
+> To-Do List 페이지 입니다. <br>
 > URL : https://humormint.github.io/FrontEndSchool_2/practice-todo-list/index.html

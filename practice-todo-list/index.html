@@ -15,15 +15,30 @@
         <main>
             <div class="list-container">
                 <ul class="list">
-                    <li> <input type="checkbox" id="checkbox"> 주간 회고 작성하기</li>
-                    <li><input type="checkbox" id="checkbox"> 이력서 만들기</li>
-                    <li><input type="checkbox" id="checkbox"> 로그인 과제 만들기</li>
-                    <li><input type="checkbox" id="checkbox"> 터미널 에러 고치기</li>
-                    <li><input type="checkbox" id="checkbox"> Git 강의 듣기</li>
+                    <li class="todo-list"> <input type="checkbox" class="checkbox"> 주간 회고 작성하기</li>
+                    <li class="todo-list"><input type="checkbox" class="checkbox"> 이력서 만들기</li>
+                    <li class="todo-list"><input type="checkbox" class="checkbox"> 로그인 과제 만들기</li>
+                    <li class="todo-list"><input type="checkbox" class="checkbox"> 터미널 에러 고치기</li>
+                    <li class="todo-list"><input type="checkbox" class="checkbox"> Git 강의 듣기</li>
                 </ul>
             </div>
         </main>
     </div>
 </div>
+
+<script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+        
+        for(let i = 0; i < 5;  i++) {
+        $(".checkbox").eq(i).click(function (){
+        $(".todo-list").eq(i).css({"text-decoration":"line-through","color":"lightgrey"})   
+        })
+    } 
+    </script>
     </body>
 </html> 

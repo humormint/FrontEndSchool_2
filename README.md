@@ -7,4 +7,4 @@
 > URL : https://humormint.github.io/FrontEndSchool_2/practice-todo-list/index.html <br>
 
 🧷 기능 
-<img src="https://user-images.githubusercontent.com/93469760/161381413-9194315f-cd56-4725-8618-3b78a7eff4ab.gif "width="160" height="100" />
+<img src="images/todo-list2.gif" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>

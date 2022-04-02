@@ -6,5 +6,4 @@
 > To-Do List 페이지 입니다. <br>
 > URL : https://humormint.github.io/FrontEndSchool_2/practice-todo-list/index.html <br>
 
-🧷 기능 
-<img src="./practice-todo-list/images/todo-list2.gif" width="450px" height="300px"></img>
+![todo-list2](https://user-images.githubusercontent.com/93469760/161381891-d2f2a763-4354-4240-96ff-fde5f7904415.gif)

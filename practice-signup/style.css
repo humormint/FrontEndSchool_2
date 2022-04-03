@@ -138,7 +138,7 @@ section form {
   margin: 0 0 20px;
 }
 
-.login input {
+.login-input input {
   width: 100%;
   height: 50px;
   background-color: #333333;
@@ -166,17 +166,27 @@ article div, a {
   color: #5a5e61;
 }
 
-
 .signup-link {
   color: #fff;
   font-size: 17px;
   padding-left: 3px;
+  cursor: pointer;
 }
 
-login-signup-now {
-  margin-top: 40px;
+.login-signup-now {
+  margin-top: 15px;
 }
 
+.login-sub-content {
+  margin-top: 15px;
+  font-size: 13.5px;
+  color: #5a5e61;
+}
+
+.login-sub-content a {
+  color: #0553ae;
+  font-size: 12.5px;
+}
 
 .sign-up {
   width: 440px;

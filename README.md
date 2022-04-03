@@ -12,4 +12,4 @@
 ## 📌 Login-page
 > Login및 회원가입 페이지 입니다. <br>
 > 🧑🏻‍💻 개발 중 입니다. <br> 
-> URL : https://humormint.github.io/FrontEndSchool_2/practice-signup/index,html
+> URL : https://humormint.github.io/FrontEndSchool_2/practice-signup/index.html

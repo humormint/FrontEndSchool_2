@@ -12,5 +12,3 @@
 ## 📌 Login-page
 > Login및 회원가입 페이지 입니다. 🧑🏻‍💻 개발 중 입니다 <br>
 > URL : https://humormint.github.io/FrontEndSchool_2/practice-signup/index.html <br>
-
-![Uploading 스크린샷 2022-04-03 오후 11.42.29.png…]()

@@ -12,6 +12,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -23,12 +24,12 @@ body {
 }
 
 .kkobuki-container {
-  margin: 135px auto;
+  margin: 130px auto;
   position: relative;
   width: 400px;
   height: 500px;
   background-color: beige;
-  left: 100px;
+  left: 62px;
 }
 
 .kkobuki-face {
@@ -357,7 +358,7 @@ body {
   background-color: beige;
   width: 400px;
   height: 500px;
-  left: 360px;
+  left: 365px;
 }
 
 .kkobuki-third-container {
@@ -433,7 +434,6 @@ body {
   left: 20px;
 }
 
-
 .sunglass-middle {
   width: 40px;
   height: 10px;
@@ -442,5 +442,3 @@ body {
   top: 95px;
   left: 96px;
 }
-
-

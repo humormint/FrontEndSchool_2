@@ -1,0 +1,378 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*IR 기법*/
+.blind {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.black-background {
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* float 해제 */
+.clear-fix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-login a {
+  text-decoration: none;
+}
+
+.container-login {
+  width: 350px;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 18px 15px 17px;
+  box-sizing: border-box;
+}
+
+.container-login .text-login {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 16px;
+}
+
+.container-login .link-login {
+  display: block;
+  margin: 0 0 16px 0;
+  padding: 10px 0 12px;
+  background-color: #711bff;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.container-login .img-logo {
+  vertical-align: -3px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.container-login .container-find {
+  float: left;
+}
+
+.container-login .container-join {
+  float: right;
+}
+
+.container-find a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #767676;
+}
+
+.container-join a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #767676;
+}
+
+.container-find .link-id::after {
+  float: right;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 12px;
+  margin: 0 4px;
+  background-color: #767676;
+}
+
+.container-find [class^="link"] {
+  float: left;
+}
+
+.container-join [class$="join"] {
+  float: left;
+}
+
+.container-find .img-find {
+  float: left;
+  margin: -1px 4px 0 0;
+}
+
+.container-join .img-join {
+  margin: -1px 4px 0 0;
+}
+
+.container-login-modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 520px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.container-login-modal h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+  display: inline-block;
+}
+
+.container-login-modal .top-login-modal {
+  margin-bottom: 26px;
+  padding: 20px 22px 18px;
+  border-bottom: 1px solid #c4c4c4;
+  text-align: center;
+}
+
+.container-login-modal .top-login-modal::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.top-login-modal img {
+  float: right;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.container-login-modal p {
+  margin-bottom: 24px;
+}
+.container-login-modal .content-login-modal {
+  padding: 0px 24px 25px;
+}
+
+.content-login-modal input {
+  width: 472px;
+  height: 50px;
+  padding-left: 16px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+.content-login-modal input:focus {
+  border: 2px solid #f4492e;
+  outline: none;
+}
+
+.content-login-modal #user-pw {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.content-login-modal .checkbox {
+  float: left;
+  margin-right: 8px;
+  margin-bottom: 20px;
+}
+.content-login-modal .text-maintain {
+  float: left;
+  margin-top: 3px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #767676;
+}
+
+.content-login-modal .maintain::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content-login-modal .button-login {
+  margin-bottom: 10px;
+  display: block;
+  width: 472px;
+  height: 50px;
+  padding: 11px;
+  border-radius: 5px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.content-login-modal .button-login img {
+  display: block;
+  float: left;
+}
+
+.content-login-modal .button-login::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.content-login-modal .button-original {
+  margin-bottom: 20px;
+  background-color: #2f80ed;
+  color: #ffffff;
+}
+
+.content-login-modal .button-google {
+  background-color: #ffffff;
+  border: 1px solid #767676;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #767676;
+}
+
+.content-login-modal .button-facebook {
+  background-color: #ffffff;
+  border: 1px solid #2d9cdb;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #767676;
+}
+
+.content-login-modal .button-naver {
+  background-color: #ffffff;
+  border: 1px solid #00bf18;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #767676;
+}
+
+.content-login-modal .button-kakao {
+  margin-bottom: 0;
+  background-color: #ffffff;
+  border: 1px solid #f2c94c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #767676;
+}
+
+.content-login-modal .link-id {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #767676;
+}
+
+.content-login-modal .link-pw {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #767676;
+}
+
+.content-login-modal .link-join {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+
+  color: #767676;
+}
+
+.content-login-modal .link-join::after {
+  float: right;
+  margin: 0 11px;
+  display: block;
+  content: "";
+  width: 1px;
+  height: 14px;
+  background-color: #767676;
+}
+
+.content-login-modal .container-join-find {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content-login-modal .or-txt {
+  position: relative;
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #767676;
+  text-align: center;
+}
+
+.content-login-modal .or-txt::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 0;
+  background-color: #c4c4c4;
+  width: 44%;
+  height: 1px;
+}
+
+.content-login-modal .or-txt::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 0;
+  background-color: #c4c4c4;
+  width: 44%;
+  height: 1px;
+}
+
+.content-login-modal .input-user-id {
+  display: none;
+  margin-top: 6px;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f4492e;
+}
+
+.content-login-modal .warning-login {
+  display: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f4492e;
+}

@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eae8fe;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 13px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.img-logo {
+  margin: 0 auto;
+  display: block;
+}
+
+.container-all {
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 60%;
+}
+
+.vending-machine-container {
+  width: 360px;
+  margin-right: 28px;
+  padding: 30px 27px 27px;
+  background-color: #ffffff;
+}
+
+.vending-machine-container .first-line-cola {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.vending-machine-container .second-line-cola {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.first-line-cola > div {
+  width: 94px;
+  padding: 11px 11px 9px 13px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+
+  color: #333333;
+  box-shadow: 0 1px 5px 0 #969696;
+}
+
+.first-line-cola img {
+  margin-bottom: 1px;
+}
+
+.second-line-cola img {
+  margin-bottom: 1px;
+}
+
+.first-line-cola > div:hover {
+  outline: 3px solid #6327fe;
+  cursor: pointer;
+}
+
+.second-line-cola > div {
+  width: 94px;
+  padding: 11px 11px 9px 13px;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  align-items: center;
+
+  color: #333333;
+  box-shadow: 0 1px 5px 0 #969696;
+}
+
+.second-line-cola > div:hover {
+  outline: 3px solid #6327fe;
+  cursor: pointer;
+}
+
+.vending-machine-container .cola-price {
+  width: 70px;
+  margin: 7px 0 0 0;
+  padding: 5px 0px 5px 0px;
+
+  background-color: #6327fe;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.vending-machine-container .input-balance {
+  width: 200px;
+  padding: 6px 10px 7px;
+  margin-right: 12px;
+  background-color: #eae8fe;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.vending-machine-container .input-balance > div {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.vending-machine-container .input-balance  {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.vending-machine-container .button-change {
+  display: block;
+  width: 94px;
+  padding: 6px 9px 8px 10px;
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 #969696;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.vending-machine-container .container-input-balance {
+  margin-bottom: 11px;
+  display: flex;
+}
+
+.vending-machine-container .container-deposit {
+  display: flex;
+  margin-bottom: 11px;
+}
+
+.vending-machine-container .input-deposit {
+  width: 200px;
+  height: 32px;
+  padding: 6px 0 8px 6px;
+  margin-right: 12px;
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+}
+
+.vending-machine-container .button-deposit {
+  border-radius: 5px;
+  width: 94px;
+  height: 32px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 5px 0 #969696;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+  border: 0;
+}
+
+.vending-machine-container .list-choice-cola {
+  position: relative;
+  width: 200px;
+  padding: 12px 18px 0 12px;
+  border: 1px solid #bdbdbd;
+  background-color: #eae8fe;
+  border-radius: 5px;
+  float: left;
+}
+
+.scroll-list-cola {
+  position: absolute;
+  width: 4px  ;
+  height: 79px;
+  right: 0;
+  top: 9px;
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+
+.list-choice-cola > div {
+  padding: 6px 8px 7px 10px;
+  width: 170px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  color: #333333;
+  line-height: 30px;
+}
+
+.list-choice-cola .box-choice-cola {
+  margin-bottom: 6px;
+}
+
+.list-choice-cola .last-choice-cola {
+  margin-bottom: 0;
+}
+
+.list-choice-cola img {
+  margin-right: 10px;
+  vertical-align: bottom;
+}
+
+.list-choice-cola .number-cola {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #bdbdbd;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  float: right;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 1.5px;
+  color: #000000;
+}
+
+.box-choice-cola div::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.button-get {
+  float: right;
+  padding: 43px 35px 44px;
+  background-color: #6327fe;
+  width: 94px;
+  height: 112px;
+  border-radius: 5px;
+  border: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+
+  color: #ffffff;
+}
+
+.vending-machine-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-right {
+  width: 360px;
+}
+
+.container-my-cash {
+  width: 360px;
+  padding: 9px 27px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.container-my-cash .input-my-cash {
+  padding: 6px 10px;
+  background-color: #eae8fe;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+
+  color: #000000;
+}
+
+.container-get-cola {
+  width: 360px;
+  padding: 25px 27px 26px;
+  background-color: #ffffff;
+}
+
+.container-get-cola .screen-get-cola {
+  position: relative;
+  width: 306px;
+  height: 370px;
+  padding: 12px 18px 0 12px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  background-color: #eae8fe;
+  margin-bottom: 6px;
+}
+
+.screen-get-cola .box-choice-cola {
+  width: 276px;
+}
+
+.container-get-cola .total-cash {
+  float: right;
+  padding-bottom: 9px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+
+  color: #000000;
+}
+
+.container-get-cola::after {
+  content: "";
+  display: block;
+  clear: both;
+}

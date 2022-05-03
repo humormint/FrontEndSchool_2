@@ -1,0 +1,8 @@
+@mixin center-x {
+  display: flex;
+  justify-content: center;
+}
+
+.container-movie {
+  @include center-x;
+}

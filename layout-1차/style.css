@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&family=Roboto&display=swap");
+/* Layout */
+#app .movie {
+  margin: 100px auto 0;
+  width: 1060px;
+  padding: 39px 24px 27px 25px;
+  background-color: #f2f2f2;
+  border: 2px solid #bdbdbd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#app h1 {
+  margin-bottom: 37px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+
+.movie .line {
+  margin: 0 auto;
+  margin-bottom: 28px;
+  width: 650px;
+  height: 2px;
+  background-color: #bdbdbd;
+}
+
+.movie .tab-movie {
+  display: flex;
+  justify-content: space-between;
+  width: 372px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+}
+
+.movie .tab-movie div {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.movie .tab-movie .now-movie {
+  font-style: normal;
+  font-weight: 900;
+  color: #000000;
+}
+
+.movie .list-movie {
+  width: 1003px;
+  padding: 23px 24px 27px 24px;
+  margin: 0 auto;
+  border: 2px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 23px;
+}
+
+/* Component */
+
+.movie .list-movie li {
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.list-movie .button-item {
+  padding: 18px 19px 0;
+  text-align: left;
+}
+
+.list-movie .button-item .img-item {
+  width: 180px;
+  height: 250px;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #bdbdbd;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list-movie .button-item .title-movie {
+  display: block;
+  margin-bottom: 12px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.button-item dt {
+  margin-right: 5px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.button-item dd {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.button-item .list-info .summary {
+  margin-bottom: 5px;
+  display: flex;
+  float: left;
+}
+
+.button-item .list-info .item-star {
+  margin-bottom: 5px;
+  display: flex;
+  float: right;
+}
+
+.button-item .list-info .item-star dd::before {
+  margin-right: 4px;
+  content: url("./img/star.png");
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+  background-position: center;
+  float: left;
+}
+
+.button-item .list-info .release {
+  margin-bottom: 5px;
+  display: flex;
+  float: left;
+}
+
+.button-item .list-info .appearance {
+  margin-bottom: 18px;
+  display: flex;
+  float: left;
+}
+
+.list-movie .link-item {
+  display: flex;
+  border-top: 1px solid #bdbdbd;
+  position: relative;
+  background: #f2f2f2;
+  border-radius: 0 0 10px 10px;
+}
+
+.list-movie .link-item a {
+  width: 50%;
+  padding: 9px 0 12px 0;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.list-movie .link-item::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #bdbdbd;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.list-movie .link-teaser::before {
+  content: "";
+  display: inline-block;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  background-image: url("./img/movie-list/play.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: -2px;
+}
+
+.list-movie .link-teaser::after {
+  content: "재생버튼";
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  line-height: 0;
+  font-size: 1px;
+  color: transparent;
+}
+
+.container-company {
+  margin-top: 133px;
+  background: #f2f2f2;
+}
+
+.container-company .company {
+  margin: 0 auto;
+  padding: 53px 0 38px 0;
+  width: 1189px;
+}
+
+.container-company .title-company {
+  margin-bottom: 41px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  float: left;
+}
+
+.container-company .link-sns {
+  display: flex;
+  float: right;
+}
+
+.container-company .link-sns img {
+  margin-left: 24px;
+  width: 24px;
+  height: 24px;
+}
+
+/* Clear Fix */
+
+.container-company .com-link::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container-company .container-company-info::before {
+  content: "";
+  display: block;
+  width: 1189px;
+  height: 1px;
+  background-color: #c4c4c4;
+  margin-bottom: 35px;
+}
+
+.company .company-info > dt,
+dd {
+  float: left;
+}
+
+.company .company-info dt {
+  margin-right: 5px;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #4f4f4f;
+}
+
+.company .company-info dd {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #828282;
+}
+
+.company .company-info dt::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 19px;
+  background-color: #000000;
+  margin: 0 10px;
+  float: left;
+}
+
+.company .company-info dt:nth-child(1) {
+  content: "";
+  display: none;
+}
+
+.company .company-info :nth-child(2) {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #4f4f4f;
+}
+
+.company-info dd:nth-child(7)::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 19px;
+  background-color: #000000;
+  margin: 0 10px;
+  float: left;
+}
+
+.container-company-info .jungle {
+  float: right;
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+/* Clear Fix */
+
+.container-company-info::after {
+  content: "";
+  display: block;
+  clear: both;
+}

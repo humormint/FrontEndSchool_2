@@ -4,7 +4,7 @@
 
 ## 📌 To-Do List
 > To-Do List 페이지 입니다. <br>
-> URL : https://humormint.github.io/FrontEndSchool_2/practice-todo-list/index.html <br>
+> URL : https://Jihoon-Chae.github.io/FrontEndSchool_2/practice-todo-list/index.html <br>
 
 🧷 List 삭제 기능
 ![todo-list2](https://user-images.githubusercontent.com/93469760/161381891-d2f2a763-4354-4240-96ff-fde5f7904415.gif) <br>

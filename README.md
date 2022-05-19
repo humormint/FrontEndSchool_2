@@ -11,4 +11,4 @@
 
 ## 📌 Netflix Login-Page
 > 📽 Netflix Login및 회원가입 페이지 입니다. 🧑🏻‍💻 개발 중 입니다 <br>
-> URL : https://humormint.github.io/FrontEndSchool_2/practice-signup/index.html <br>
+> URL : https://Jihoon-Chae.github.io/FrontEndSchool_2/practice-signup/index.html <br>
